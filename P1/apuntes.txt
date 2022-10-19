@@ -1,0 +1,4 @@
+tenemos dos espectros, el del modulo y el del argumento
+el del modulo es el de los complejos. Lo que debo hacer es escoger uno del modulo y buscarlo en el del argumento 
+(y obtenemos la fase)
+El del modulo es realmente la amplitud aunque esta escalada por una constante.

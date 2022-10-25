@@ -85,12 +85,4 @@ title("Ej9 - Parte imaginaria");
 %% EJERCICIO 10
 n = length(yPrima);
 yPrima(n/2)=0;
-yPrima(n/2+1)=0;
-F = fft(yPrima);
-invF = ifft(F);
-figure
-plot(x,yPrima, 'r'); hold on; plot(x,invF,'b');
-legend ('original','fourier');
-title("Ej10");
-% Compárala con la función original(paso 7). ¿Qué ha ocurrido?
-% son la misma señal
+yPrima(n/2)

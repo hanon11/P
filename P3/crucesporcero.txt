@@ -1,0 +1,4 @@
+lo que me devuelve cruces por cero, lo multiplico por la longitud de la trama
+eso lo divido por el tiempo de la muestra EN MILISEGUNDOS.
+Sé que el limite de las sonoras esta en 2.5. Luego las menores de 2.5 sera sonora y mayor
+de 2.5 sera sorda

@@ -1,5 +1,4 @@
 clear all, close all
-
 %% EJERCICIO 2
 Nx = 200;
 Ny = 200;
@@ -111,12 +110,17 @@ subplot(2,2,4),imagesc(frecx(1:end-1),frecy(1:end-1),abs(tf)), colormap("parula"
 %% EJERCICIO 7
 F = fftshift(fft2(z));
 figure
-imagesc(frecx(1:end-1),frecy(1:end-1),abs(F));
+imagesc(abs(F));
 [x_, y_] = ginput();
+r = 10;
+[X,Y]=meshgrid(1:size(F,2), 1:size(F,1));
+for i=1:length(x_)
+    okx = sqrt((X - x_(i)).^2 + (Y - y_(i)).^2) <= r;
+    F(okx) = 0;
+end
 
-radio = 10;
-
-
+znew = ifft2(ifftshift(F));
+figure; surf(real(znew)); colormap gray;
 
 %% EJERCICIO 8
 A = imread("seminarista.jpg");
@@ -126,18 +130,18 @@ shiftedFFT = fftshift(tf);
 figure;
 imagesc(log(abs(shiftedFFT))), colormap gray;
 [x_, y_] = ginput();
-r = 30;
+r = 40;
+[X,Y]=meshgrid(1:size(A,2), 1:size(A,1));
 for i=1:length(x_)
-    okx = find(frecx >= x_(i)-r & frecx <= x_(i)+r);
-    oky = find(frecy >= y_(i)-r & frecy <= y_(i)+r);
-    shiftedFFT(okx,oky)=0;
+    okx = sqrt((X - x_(i)).^2 + (Y - y_(i)).^2) <= r;
+    shiftedFFT(okx) = 0;
 end
 
 figure;
-imagesc(log(abs(shiftedFFT))), colormap gray;
+imagesc(log(abs(shiftedFFT) +1)), colormap gray;
 znew = ifft2(ifftshift(shiftedFFT));
-figure; imagesc(znew); colormap gray;
-
+figure; imagesc(abs(znew)); colormap gray;
+title("Postprocesado")
 
 %% EJERCICIO 9
 B = imread("barco.jpg");
@@ -153,21 +157,22 @@ for radio=10:10:60
     m(ok)=0;
     figure;
     imagesc(log(abs(shiftedFFT.*m))), colormap gray;   
+    znew = ifft2(ifftshift(shiftedFFT.*m));
+    figure; imagesc(abs(znew)); colormap gray;
+    title("Postprocesado")
 end
+% si anulamos las frencuencias altas, la imagen se ve mas oscura
 
-% si invertimos la mascara:
+% si invertimos la mascara: anulamos las frecuencias altas y vemos la
+% imagen difuminada
 m = zeros(size(shiftedFFT));
 for radio=10:10:60
     [X,Y]=meshgrid(1:size(B,2), 1:size(B,1));
     ok = find(sqrt((X-size(B,2)/2).^2 + (Y-size(B,1)/2).^2) <= radio);
     m(ok)=1;
     figure;
-    imagesc(log(abs(shiftedFFT.*m))), colormap gray;   
+    imagesc(log(abs(shiftedFFT.*m))), colormap gray; 
+    znew = ifft2(ifftshift(shiftedFFT.*m));
+    figure; imagesc(abs(znew)); colormap gray;
+    title("Postprocesado")
 end
-
-
-
-
-
-
-

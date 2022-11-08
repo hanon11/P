@@ -75,7 +75,7 @@ title("Ej9 - Parte real");
 figure
 bar(frecuencias(1:end-1), imag(F));
 title("Ej9 - Parte imaginaria");
-%Qué observas?¿Por qué obtenemos este resultado?
+% Qué observas?¿Por qué obtenemos este resultado?
 % En la parte real se muestra la componente continua. Podemos ver que para
 % frecuencias 1, 4 y 18 tenemos parte real. En la parte imaginaria solo
 % aparecen las frecuencias 1 y 2. Por lo tanto 4 y 18 solo tienen parte

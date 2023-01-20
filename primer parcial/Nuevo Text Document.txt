@@ -1,1 +1,0 @@
-convolucion dominio del tiempo es producto en dominio de la frecuencia

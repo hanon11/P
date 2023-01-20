@@ -131,6 +131,7 @@ else
     end
     angle = mean(angles);
     angle = rad2deg(angle);
+    if (angle > -40 && angle < 40) or ()
     imagen = imrotate(imagen, angle+180, 'crop');
     imagen = imbinarize(imagen, umbral);
     figure, imshow(imagen);

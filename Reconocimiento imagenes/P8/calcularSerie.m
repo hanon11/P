@@ -18,7 +18,7 @@ function serie = calcularSerie(vector)
     
         % Calcular la serie aritmética para los elementos restantes
         if vector(1) < vector(2)
-             % Utilizar un bucle while para seguir rellenando las posiciones vacías
+            % Utilizar un bucle while para seguir rellenando las posiciones vacías
             i = indices_no_nulos(end) + 1;
             while i <= length(vector)
                 serie(i) = serie(i-1) + razon;
@@ -34,6 +34,10 @@ function serie = calcularSerie(vector)
         end
     else
         % Si la serie es de Fibonacci, calcular los elementos restantes
-        serie(indices_no_nulos(end)+1:end) = serie(indices_no_nulos(end)) + serie(indices_no_nulos(end)-1);
+        i = indices_no_nulos(end) + 1;
+        while i <= length(vector)
+            serie(i) = serie(i-1) + serie(i-2);
+            i = i + 1;
+        end
     end
 end

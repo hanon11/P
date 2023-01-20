@@ -28,8 +28,8 @@ figure, imshow(C);
 %T = adaptthresh(Igray,0.5);
 %Variar el tamaño de la vecindad
 figure, surf(Igray);
-%T = adaptthresh(Igray,0.5,'NeighborhoodSize',[11 11]);
-T = adaptthresh(Igray,0.5,'NeighborhoodSize',[101 101]);
+T = adaptthresh(Igray,0.5,'NeighborhoodSize',[11 11]);
+%T = adaptthresh(Igray,0.5,'NeighborhoodSize',[101 101]);
 figure, surf(T);
 figure, surf(im2double(Igray)-T);
 BW = imbinarize(Igray,T);
@@ -67,7 +67,7 @@ figure,imshow(Iborde);
 peaks = houghpeaks(H,4);
 lines = houghlines(Iborde, theta, rho, peaks);
 figure,imshow(Igray,[]);
-for k = 1:length(lines),
+for k = 1:length(lines)
    xy = [lines(k).point1; lines(k).point2];
    line(xy(:,1),xy(:,2),'LineWidth',1.5,'Color','g');
 end

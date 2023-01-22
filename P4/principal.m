@@ -39,7 +39,7 @@ for i=1:size(fragmentos,1)
     
     [ini, fin] = inicioFin (conjTramas, numTramasRuido, ventana);
     
-    palabra = invSegmentacion (conjTramas(:,ini:fin), longDespTrama);
+    
     
     figure, 
     subplot(1,2,1),plot(y(fragmentos(i,1):fragmentos(i,2)));

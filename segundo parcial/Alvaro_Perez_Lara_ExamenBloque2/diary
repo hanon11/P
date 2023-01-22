@@ -1,0 +1,906 @@
+examen
+examen
+examen
+{Unrecognized function or variable 'lontrama'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('examen', 'C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m', 13)" style="font-weight:bold">examen</a> (<a href="matlab: opentoline('C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m',13,0)">line 13</a>)
+tramas = buffer(senal,lontrama, lontramas-desplazamiento, "nodelay");
+} 
+examen
+{Unrecognized function or variable 'lontramas'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('examen', 'C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m', 13)" style="font-weight:bold">examen</a> (<a href="matlab: opentoline('C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m',13,0)">line 13</a>)
+tramas = buffer(senal,lontrama, lontramas-desplazamiento, "nodelay");
+} 
+examen
+examen
+{Unrecognized function or variable 'trama'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('examen', 'C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m', 15)" style="font-weight:bold">examen</a> (<a href="matlab: opentoline('C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m',15,0)">line 15</a>)
+plot(trama(:, 15));
+} 
+examen
+examen
+examen
+examen
+examen
+examen
+examen
+examen
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+examen
+
+pitch =
+
+   39.4089
+
+es hombre
+examen
+
+pitch =
+
+   39.4089
+
+es hombre
+examen
+
+pitch =
+
+        8000
+
+es mujer
+examen
+
+pitch =
+
+   39.4089
+
+es hombre
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('error')" style="font-weight:bold">error</a>
+Too many output arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('examen', 'C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m', 48)" style="font-weight:bold">examen</a> (<a href="matlab: opentoline('C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m',48,0)">line 48</a>)
+G = sum(error);
+} 
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+{The end operator must be used within an array index expression.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('examen', 'C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m', 51)" style="font-weight:bold">examen</a> (<a href="matlab: opentoline('C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m',51,0)">line 51</a>)
+senalest = filter([0 -lpcoefs(2:end)],1,[segmento; zeros(orden,1)])
+} 
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+
+senalest =
+
+         0
+   -0.0008
+    0.0024
+    0.0025
+    0.0029
+    0.0027
+    0.0020
+    0.0008
+   -0.0014
+   -0.0020
+   -0.0044
+   -0.0041
+   -0.0025
+    0.0003
+    0.0014
+    0.0038
+    0.0029
+    0.0027
+    0.0042
+    0.0011
+   -0.0026
+   -0.0040
+   -0.0033
+   -0.0037
+   -0.0013
+    0.0003
+    0.0013
+    0.0046
+    0.0060
+    0.0052
+    0.0007
+   -0.0011
+   -0.0035
+   -0.0090
+   -0.0129
+   -0.0099
+   -0.0059
+    0.0029
+    0.0039
+    0.0087
+    0.0098
+    0.0131
+    0.0108
+    0.0099
+    0.0003
+   -0.0072
+   -0.0100
+   -0.0166
+   -0.0178
+   -0.0079
+    0.0013
+    0.0109
+    0.0158
+    0.0107
+    0.0095
+    0.0130
+    0.0042
+   -0.0111
+   -0.0131
+   -0.0137
+   -0.0129
+    0.0003
+    0.0034
+    0.0034
+    0.0146
+    0.0195
+    0.0128
+    0.0007
+   -0.0063
+   -0.0172
+   -0.0289
+   -0.0301
+   -0.0298
+   -0.0108
+    0.0119
+    0.0151
+    0.0250
+    0.0237
+    0.0267
+    0.0253
+    0.0278
+   -0.0023
+   -0.0169
+   -0.0289
+   -0.0370
+   -0.0302
+   -0.0109
+   -0.0012
+    0.0223
+    0.0304
+    0.0179
+    0.0156
+    0.0143
+    0.0001
+   -0.0112
+   -0.0143
+   -0.0205
+   -0.0184
+    0.0022
+    0.0134
+    0.0158
+    0.0177
+    0.0198
+    0.0083
+   -0.0041
+   -0.0056
+   -0.0436
+   -0.0558
+   -0.0408
+   -0.0261
+    0.0056
+    0.0255
+    0.0312
+    0.0356
+    0.0400
+    0.0344
+    0.0243
+    0.0160
+   -0.0136
+   -0.0291
+   -0.0521
+   -0.0552
+   -0.0347
+    0.0032
+    0.0261
+    0.0403
+    0.0287
+    0.0270
+    0.0225
+    0.0138
+   -0.0118
+   -0.0227
+   -0.0223
+   -0.0224
+   -0.0122
+   -0.0028
+    0.0019
+    0.0259
+    0.0277
+    0.0263
+    0.0008
+   -0.0076
+   -0.0177
+   -0.0407
+   -0.0475
+   -0.0400
+   -0.0121
+    0.0129
+    0.0312
+    0.0338
+    0.0230
+    0.0248
+    0.0242
+    0.0169
+    0.0030
+   -0.0167
+   -0.0355
+   -0.0446
+   -0.0300
+   -0.0100
+    0.0162
+    0.0337
+    0.0305
+    0.0224
+    0.0171
+    0.0039
+   -0.0038
+   -0.0126
+   -0.0154
+   -0.0210
+   -0.0147
+   -0.0083
+   -0.0008
+    0.0130
+    0.0194
+    0.0181
+    0.0125
+    0.0010
+   -0.0032
+   -0.0253
+   -0.0266
+   -0.0259
+   -0.0107
+    0.0013
+    0.0097
+    0.0168
+    0.0156
+    0.0153
+    0.0130
+    0.0098
+    0.0035
+   -0.0020
+   -0.0122
+   -0.0203
+   -0.0205
+   -0.0107
+    0.0023
+    0.0140
+    0.0163
+    0.0104
+    0.0084
+    0.0022
+   -0.0007
+   -0.0038
+   -0.0045
+   -0.0072
+   -0.0059
+   -0.0036
+   -0.0019
+    0.0013
+    0.0061
+    0.0059
+    0.0046
+    0.0011
+   -0.0008
+   -0.0061
+   -0.0080
+   -0.0072
+   -0.0039
+    0.0013
+    0.0025
+    0.0046
+    0.0031
+    0.0037
+    0.0030
+    0.0029
+    0.0005
+   -0.0003
+   -0.0028
+   -0.0040
+   -0.0042
+   -0.0032
+   -0.0001
+    0.0033
+    0.0044
+    0.0029
+    0.0021
+    0.0001
+   -0.0005
+   -0.0008
+   -0.0009
+   -0.0002
+   -0.0003
+    0.0001
+    0.0000
+    0.0001
+    0.0002
+   -0.0001
+   -0.0001
+    0.0001
+
+{Unrecognized function or variable 'lpcoef'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('examen', 'C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m', 54)" style="font-weight:bold">examen</a> (<a href="matlab: opentoline('C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m',54,0)">line 54</a>)
+H = freqz(G, lpcoef, numpuntos);
+} 
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+{Unrecognized function or variable 'linespace'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('examen', 'C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m', 56)" style="font-weight:bold">examen</a> (<a href="matlab: opentoline('C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m',56,0)">line 56</a>)
+frecuencias = linespace(1, Fs, length(segmento)+1);
+} 
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+{Unrecognized function or variable 'frecuecias'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('examen', 'C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m', 58)" style="font-weight:bold">examen</a> (<a href="matlab: opentoline('C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m',58,0)">line 58</a>)
+frecuencias = frecuecias(1:numpuntos);
+} 
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('findpeaks')" style="font-weight:bold">findpeaks</a>
+Expected Y to be real.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('findpeaks>parse_inputs', 'C:\Program Files\MATLAB\R2021b\toolbox\signal\signal\findpeaks.m', 199)" style="font-weight:bold">findpeaks>parse_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\signal\signal\findpeaks.m',199,0)">line 199</a>)
+validateattributes(Yin,{'double','single'},{'nonempty','real','vector'},...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('findpeaks', 'C:\Program Files\MATLAB\R2021b\toolbox\signal\signal\findpeaks.m', 136)" style="font-weight:bold">findpeaks</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\signal\signal\findpeaks.m',136,0)">line 136</a>)
+  = parse_inputs(isInMATLAB,Yin,varargin{:});
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('examen', 'C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m', 60)" style="font-weight:bold">examen</a> (<a href="matlab: opentoline('C:\Users\alvar\Documents\UCA\Percepcion\EXAMEN2\examen.m',60,0)">line 60</a>)
+[~,ind] = findpeaks(H);
+} 
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+vocal 1
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+vocal2
+
+f1 =
+
+  167.6458
+
+
+f2 =
+
+  967.5458
+
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+vocal 1
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+vocal2
+
+f1 =
+
+  300.9625
+
+
+f2 =
+
+  967.5458
+
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+vocal 1
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+vocal2
+
+f1 =
+
+  300.9625
+
+
+f2 =
+
+  967.5458
+
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+vocal 1
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+vocal2
+
+f1 =
+
+  300.9625
+
+
+f2 =
+
+  967.5458
+
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+vocal 1
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+vocal2
+
+f1 =
+
+  300.9625
+
+
+f2 =
+
+  967.5458
+
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+vocal 1
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+vocal2
+
+f1 =
+
+  234.3042
+
+
+f2 =
+
+  967.5458
+
+examen
+
+pitch =
+
+  216.2162
+
+es mujer
+vocal 1
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.2342e+03
+
+vocal2
+
+f1 =
+
+  367.6208
+
+
+f2 =
+
+  867.5583
+
+examen
+
+pitch =
+
+  222.2222
+
+es mujer
+vocal 1
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.1675e+03
+
+vocal2
+
+f1 =
+
+  300.9625
+
+
+f2 =
+
+  967.5458
+
+examen
+
+pitch =
+
+        8000
+
+es mujer
+vocal 1
+
+f1 =
+
+  634.2542
+
+
+f2 =
+
+   1.4675e+03
+
+vocal2
+
+f1 =
+
+  300.9625
+
+
+f2 =
+
+  967.5458
+
+examen
+
+pitch =
+
+  210.5263
+
+es mujer
+vocal 1
+
+f1 =
+
+  534.2667
+
+
+f2 =
+
+   1.7008e+03
+
+vocal2
+
+f1 =
+
+  300.9625
+
+
+f2 =
+
+  967.5458
+
+examen
+
+pitch =
+
+  222.2222
+
+es mujer
+vocal 1
+
+f1 =
+
+  667.5833
+
+
+f2 =
+
+   1.1675e+03
+
+vocal2
+
+f1 =
+
+  300.9625
+
+
+f2 =
+
+  967.5458
+
+
+diary off

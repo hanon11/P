@@ -99,7 +99,7 @@ subplot(2,2,1),surf(x,y,z);
 subplot(2,2,2),imagesc(x,y,z), colormap winter;
 subplot(2,2,3),surf(frecx(1:end-1),frecy(1:end-1),abs(tf));
 subplot(2,2,4),imagesc(frecx(1:end-1),frecy(1:end-1),abs(tf)), colormap("parula");
-%¿Qué diferencia hay con respecto a la figura anterior?¿Puedes 
+% ¿Qué diferencia hay con respecto a la figura anterior?¿Puedes 
 % identificar a qué funciones corresponden los módulos de los coeficientes
 % espectrales?
 % podemos diferenciar claramente en la figura de abajo a la derecha el

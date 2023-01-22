@@ -34,6 +34,7 @@ figure, plot(((1:floor(length(senal)/2)-1)-1)/Fs,STAMDF);
 % Calculo del pitch
 [~,indices] = sort(STAMDF);
 periodo_fundamental = indices(2)/Fs;
+F1 = indices(3);
 pitch1 = 1/periodo_fundamental
 
 %%

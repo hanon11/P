@@ -1,0 +1,32 @@
+clear all, close all, clc
+load nombre01.mat
+%%
+tiempoTrama = 0.03;
+tiempoDesplTrama = 0.01;
+a = 0.95;
+longTrama = round(Fs * tiempoTrama);
+longDespTrama = round (Fs * tiempoDesplTrama);
+figure, plot(senal)
+%%
+vocal1 = senal(1500:1500+longTrama-1);
+vocal2 = senal(2700:2700+longTrama-1);
+vocal1 = hamming(length(vocal1)).*vocal1;
+vocal2 = hamming(length(vocal2)).*vocal2;
+
+%pitch
+umbral = 0.3 * max(abs(vocal1));
+y = sign(vocal1) .* max(0,(abs(vocal1)-umbral));
+figure, plot(y)
+
+% Correlación
+y = hamming(length(y)).* y;
+[correlacion,intervalos] =  xcorr(y);
+centro = round(length(correlacion)/2);
+correlacion = correlacion(centro:end);
+[pks, maximos] = findpeaks(correlacion);
+
+[~,ord] = sort(pks);
+periodo_fundamental = (maximos(ord(end))-1)/Fs;
+
+
+pitch = 1/periodo_fundamental

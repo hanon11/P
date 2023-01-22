@@ -48,14 +48,14 @@ xlim([0 max(n/Fs)]);
 %periodo_fundamental = (maximos(picos_ok(1))-1)/Fs
 
 [~,ord] = sort(picos);
-periodo_fundamental = (maximos(ord(end))-1)/Fs
+periodo_fundamental = (maximos(ord(end))-1)/Fs;
 
 
-pitch = 1/periodo
+pitch = 1/periodo_fundamental
 
 
 
-Basado en AMDF:
+%Basado en AMDF:
 
 %%
 Fs = 100;
@@ -94,5 +94,5 @@ xlim([0 max(n/Fs/2)]);
 % Cálculo del pitch
 [picos, maximos] = findpeaks(-STAMDF);
 [~,ind] = sort (picos);
-periodo_fundamental = (maximos(ind(end)))/Fs
+periodo_fundamental = (maximos(ind(end)))/Fs;
 pitch = 1/periodo_fundamental

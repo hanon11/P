@@ -77,12 +77,17 @@ function vocales = obtiene_vocal(imagen, vocal)
         % Convierte el índice a coordenas y,x
         [fils, cols] = ind2sub(size(sol),imax(1));
         comprobacion=imagen(fils-height(vocal):fils-1,cols-width(vocal):cols-1);
-        h = fspecial('average', [3 3]); %crear máscara de promedio
-        comprobacion = imfilter(comprobacion, h); %aplicar filtro
         cc = corr2(vocal, comprobacion);
-        if cc > 0.7
+        if cc > 0.69
             %figure, imshow(comprobacion);
             vocales = true;
         end
     end
+%     tam = numel(vocal) + numel(imagen) - 1;
+%     sol = sol/tam;
+%     [fila, ~] = size(sol);
+%     sol = (sum(sol,1));
+%     if sum(sol(:)>80) > 20
+%         fprintf("Tiene una vocal\n");    
+%     end
 end
